@@ -1,0 +1,56 @@
+/* styles.css */
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url("dark_home.png");
+    font-family: Playfair, display;
+}
+h1{
+    
+font-size:120px;
+font-family: Playfair, display;
+top : 25%;
+position: fixed;
+color:white
+
+}
+span h1 {
+
+    background-color:rgba(37, 34, 34, 0.90);
+
+}
+
+.container {
+    display: flex;
+    gap: 10px;
+    font-size: 4rem;
+    position: fixed;
+    
+}
+
+button{
+font-size: xx-large;
+font-family: sans-serif, inter ;
+color:rgb(2, 74, 2);
+position: fixed;
+width : 18rem;
+height : 5rem;
+background: linear-gradient(#ffffff58, #ffffff9b) ;
+border : 3px ridge #06a82f96;
+top: 65%;
+border-radius: 50px ;
+cursor: pointer;
+
+}
+a{
+text-decoration: none;
+font-size: xx-large;
+font-family: sans-serif, inter ;
+color:rgb(2, 74, 2);
+
+}

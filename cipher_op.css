@@ -1,0 +1,120 @@
+/* styles.css */
+
+body {
+    display: flex;
+    flex-direction: column; /* Change to column to stack elements vertically */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url("dark_uplaod.png");
+    font-family: Playfair, display;
+}
+
+h1 {
+    font-size: 100px;
+    position: fixed;
+    color: white;
+    top:0px;
+}
+
+rect{
+
+    display: block;
+    height:600px;
+    width:800px; 
+    background-color:#252222b3; 
+    position: fixed;
+    top: 200px;
+    border: 100px #05ff50;
+    border-radius: 50px;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /* Stack inputs vertically */
+    gap: 10px; /* Add space between inputs */
+    margin-bottom: 20px; /* Space below the input container */
+}
+#up{
+    font-size: x-large;
+    font-family: sans-serif, inter ;
+    color:white ;
+    position: fixed;
+    top: 230px;
+    left: 300px;
+  }
+  #keyy{
+    font-size: x-large;
+    font-family: sans-serif, inter ;
+    color:white ;
+    position: fixed;
+    top: 330px;
+    left: 300px;
+  }
+
+input[type="file"],
+input[type="text"] {
+    background: linear-gradient(#ffffff58, #ffffff9b);
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid rgb(2, 74, 2);
+    position: fixed;
+    font-family: sans-serif,inter;
+    color: #024a02;
+}
+
+#fileInput{
+ top:260px;
+ left: 300px ;
+ height:1.5rem ;
+ width: 20rem;
+ font-size: large;
+ color: #024a02;
+}
+#key{
+  top:360px;  
+  left:300px; 
+  height: 1rem;
+  width: 20rem;
+}
+::placeholder{
+    color:#024a02;
+    font-family: sans-serif, inter ;
+    font-size: medium;
+}
+
+button {
+    font-size: x-large;
+    font-family: sans-serif, inter;
+    color: rgb(2, 74, 2);
+    width: 13rem;
+    height: 3rem;
+    position: fixed;
+    background: linear-gradient(#ffffff58, #ffffff9b);
+    border: 3px ridge #06a82f96;
+    border-radius: 50px;
+    cursor: pointer;
+    top:440px;
+}
+#bd{
+left:380px;
+}
+#be{
+left:660px;
+}
+
+a {
+    display: block; /* Make the download link a block element */
+   position: fixed;
+   top:500px;
+   left:450px;
+    text-decoration: none;
+    font-size: xx-large;
+    font-family: playfiar, display;
+    color: white;
+   display: none; /* Initially hide the download link */
+}
+
